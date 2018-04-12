@@ -1,0 +1,15 @@
+elasticsearch:
+  cluster:
+    hostName: 192.168.10.241
+    port: 9300
+    clusterName: es-qtm
+    poolSize: 5
+    transportSniff: false
+  index:
+    indexMapperDynamic: false
+    indexMaxResultWindowValue: 1000000
+    numberOfShards: 6
+    numberOfReplicas: 1
+
+
+
